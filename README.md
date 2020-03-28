@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
+    <img alt="Be The Hero" src="https://github.com/kleytonsolinho/thebehero/edit/master/frontend/src/assets/logo.svg" width="200px" />
 </h1>
 
 <h3 align="center">
-  # The Be Hero
+  The Be Hero
 </h3>
 
 <blockquote align="center">“Sua única limitação é você mesmo”!</blockquote>

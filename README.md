@@ -7,25 +7,25 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/engividal/tobehero">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/kleytonsolinho/thebehero">
   
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/engividal/tobehero">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/kleytonsolinho/thebehero">
   
-  <a href="https://www.codacy.com/manual/engividal/tobehero?    utm_source=github.com&amp;utm_medium=referral&amp;utm_content=engividal/tobehero&amp;utm_campaign=Badge_Grade">
+  <a href="https://www.codacy.com/manual/kleytonsolinho/thebehero?    utm_source=github.com&amp;utm_medium=referral&amp;utm_content=engividal/tobehero&amp;utm_campaign=Badge_Grade">
   <img src="https://api.codacy.com/project/badge/Grade/af7ef38b79414492844663ebbbf4e21b"/>
   </a>
   
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/engividal/tobehero">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/kleytonsolinho/thebehero">
   
   <a href="https://github.com/engividal/tobehero/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/engividal/tobehero">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kleytonsolinho/thebehero">
   </a>
   
   <a href="https://github.com/engividal/tobehero/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/engividal/tobehero">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/kleytonsolinho/thebehero">
   </a>
   
-  <img alt="GitHub" src="https://img.shields.io/github/license/engividal/tobehero">
+  <img alt="GitHub" src="https://img.shields.io/github/license/kleytonsolinho/thebehero">
 </p>
 
 <p align="center">
@@ -69,13 +69,9 @@ Esta aplicação foi desenolvida com as tecnologias abaixo:
 - [React Icons](https://react-icons.netlify.com/#/)
 - [Axios](https://github.com/axios/axios)
 
-## ![Alt LogoRocketseat](.github/logo-rocketseat.svg) Semana OmniStack
-
-A [Semana OmniStack](https://rocketseat.com.br/week/inscricao/11.0) é um evento 100% online e gratuito, onde a [Rocketseat](https://github.com/rocketseat) junto com seu CTO [Diego Fernandes](https://github.com/diego3g) e mais toda a comunidade, desenvolvem uma aplicação completa, desde o banco de dados, back-end, até o front-end web e mobile, tudo isso utilizando a stack JavaScript, ou seja, Node.js no back-end, ReactJS para web e React Native para mobile.
-
 ## 💻 Instalação e execução
 
-Faça um clone do repositório através do [GitHub Desktop](https://desktop.github.com/) ou linha de comando `git clone https://github.com/engividal/tobehero.git`.
+Faça um clone do repositório através do [GitHub Desktop](https://desktop.github.com/) ou linha de comando `git clone https://github.com/kleytonsolinho/thebehero.git`.
 
 ### Pré-requisitos
 
@@ -134,7 +130,7 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 
 ## 📝 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/engividal/tobehero/blob/master/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/kleytonsolinho/thebehero/blob/master/LICENSE) para mais detalhes.
 
 ---
 
@@ -142,5 +138,3 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.c
 
 - CTO Rocketseat [Diego Fernandes](https://github.com/diego3g)
 - Rocketseat pela semana de Aprendizagem [Rocketseat](https://github.com/rocketseat)
-- Template do README.md [EliasGcf/engividal](https://www.linkedin.com/in/eliasgcf/)
-- Apoio na geração das telas [Sth](https://www.linkedin.com/in/sthefany-freitas-9130991a3/)

@@ -1,77 +1,146 @@
 <h1 align="center">
-    <img alt="Be The Hero" src="https://github.com/kleytonsolinho/thebehero/edit/master/frontend/src/assets/logo.svg" width="200px" />
+  <img src=".github/logo.svg" alt="Be The Hero">
 </h1>
 
 <h3 align="center">
-  The Be Hero
+  Be The Hero - Conecte sua ONG a pessoas que desejam ajudar.
 </h3>
 
-<blockquote align="center">“Sua única limitação é você mesmo”!</blockquote>
-
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rocketseat/bootcamp-gostack-desafio-01?color=%2304D361">
-
-  <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%2304D361">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/engividal/tobehero">
+  
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/engividal/tobehero">
+  
+  <a href="https://www.codacy.com/manual/engividal/tobehero?    utm_source=github.com&amp;utm_medium=referral&amp;utm_content=engividal/tobehero&amp;utm_campaign=Badge_Grade">
+  <img src="https://api.codacy.com/project/badge/Grade/af7ef38b79414492844663ebbbf4e21b"/>
   </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
-
-  <a href="https://github.com/Rocketseat/bootcamp-gostack-desafio-01/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/rocketseat/bootcamp-gostack-desafio-01?style=social">
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/engividal/tobehero">
+  
+  <a href="https://github.com/engividal/tobehero/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/engividal/tobehero">
   </a>
+  
+  <a href="https://github.com/engividal/tobehero/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/engividal/tobehero">
+  </a>
+  
+  <img alt="GitHub" src="https://img.shields.io/github/license/engividal/tobehero">
 </p>
 
 <p align="center">
-  <a href="#rocket-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#%EF%B8%8F-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-semana-omnistack">Semana OmniStack</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação-execução-e-desenvolvimento">Instalação, execução e desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
 </p>
 
-## :rocket: Sobre o desafio
+<p id="insomniaButton" align="center">
+  <a href="https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Tobehero%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fengividal%2Ftobehero%2Fmaster%2Finsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
 
-Crie uma aplicação para armazenar projetos e suas tarefas do zero utilizando [Express](https://expressjs.com/pt-br/).
+<img alt="Layout" src=".github/tobehero.png" />
 
-### Rotas
+## 📋 Projeto
 
-- `POST /projects`: A rota deve receber `id` e `title` dentro do corpo e cadastrar um novo projeto dentro de um array no seguinte formato: `{ id: "1", title: 'Novo projeto', tasks: [] }`; Certifique-se de enviar tanto o ID quanto o título do projeto no formato string com aspas duplas.
+Aplicação completa utilizando a Stack do Javascript. O objetivo da aplicação é permitir que ONGs possam cadastrar casos a serem visualizados pelo possíveis voluntários que queiram colaborar. 
 
-- `GET /projects`: Rota que lista todos projetos e suas tarefas;
+O Frontend Web permite o cadastro de novas ONGs e novos Casos. Os casos possuem detalhes para auxiliar quem tiver interesse em ajudar e entrar em contato com as ONGs.
 
-- `PUT /projects/:id`: A rota deve alterar apenas o título do projeto com o `id` presente nos parâmetros da rota;
+O aplicativo é voltado para o usuário final, possível voluntário, que poderá visualizar todos os casos disponíveis e entrar em contato com a organização que criou o caso via e-mail ou whatsapp.  
 
-- `DELETE /projects/:id`: A rota deve deletar o projeto com o `id` presente nos parâmetros da rota;
+## 🔝 Tecnologias
 
-- `POST /projects/:id/tasks`: A rota deve receber um campo `title` e armazenar uma nova tarefa no array de tarefas de um projeto específico escolhido através do `id` presente nos parâmetros da rota;
+Esta aplicação foi desenolvida com as tecnologias abaixo:
 
-### Exemplo
+- [Node.js](https://nodejs.org/en/)
+- [ReactJS](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.io/)
+- [Express](https://expressjs.com/pt-br/)
+- [Celebrate](https://github.com/arb/celebrate)
+- [SQLite](https://www.sqlite.org/)
+- [Jest](https://jestjs.io/)
+- [SuperTest](https://github.com/visionmedia/supertest)
+- [Nodemon](https://nodemon.io/)
+- [React Navigation](https://reactnavigation.org/)
+- [React Icons](https://react-icons.netlify.com/#/)
+- [Axios](https://github.com/axios/axios)
 
-Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' }` e a rota `POST /projects/1/tasks` com `{ title: 'Nova tarefa' }`, meu array de projetos deve ficar assim:
+## ![Alt LogoRocketseat](.github/logo-rocketseat.svg) Semana OmniStack
 
-```js
-[
-  {
-    id: "1",
-    title: "Novo projeto",
-    tasks: ["Nova tarefa"]
-  }
-];
+A [Semana OmniStack](https://rocketseat.com.br/week/inscricao/11.0) é um evento 100% online e gratuito, onde a [Rocketseat](https://github.com/rocketseat) junto com seu CTO [Diego Fernandes](https://github.com/diego3g) e mais toda a comunidade, desenvolvem uma aplicação completa, desde o banco de dados, back-end, até o front-end web e mobile, tudo isso utilizando a stack JavaScript, ou seja, Node.js no back-end, ReactJS para web e React Native para mobile.
+
+## 💻 Instalação e execução
+
+Faça um clone do repositório através do [GitHub Desktop](https://desktop.github.com/) ou linha de comando `git clone https://github.com/engividal/tobehero.git`.
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/en/)
+- [SQLite](https://www.sqlite.org/)
+- [Yarn](https://yarnpkg.com/) ou [npm](https://www.npmjs.com/)
+- [Expo](https://expo.io/)
+
+### Backend
+
+- A partir da raiz do projeto, entre na pasta rodando `cd backend`;
+- Rode `yarn` para instalar sua dependências;
+- Importe o arquivo `Insomnia.json` no Insomnia ou clique no botão [Run in Insomnia](#insomniaButton);
+
+### Web
+
+_ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
+
+- A partir da raiz do projeto, entre na pasta do frontend web rodando `cd web`;
+- Rode `yarn` para instalar as dependências;
+- Rode `yarn start` para iniciar o client web;
+
+### Mobile
+
+_ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
+
+- A partir da raiz do projeto, entre na pasta do frontend web rodando `cd mobile`;
+- Rode `yarn` para instalar as dependências;
+- Rode `yarn start` ou `expo start` para iniciar o bundle com o expo;
+- Caso vá utilizar seu smartphone, com o app do expo escaneia o QRCODE;
+
+## ❤️ Como contribuir
+
+**Faça um fork deste repositório**
+
+<!-- - Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`; -->
+
+```bash
+# Clone o seu fork
+$ git clone url-do-seu-fork && cd tobehero
+
+# Crie uma branch com sua feature
+$ git checkout -b minha-feature
+
+# Faça o commit das suas alterações
+$ git commit -m 'feat: Minha nova feature'
+
+# Faça o push para a sua branch
+$ git push origin minha-feature
 ```
 
-### Middlewares
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-- Crie um middleware que será utilizado em todas rotas que recebem o ID do projeto nos parâmetros da URL que verifica se o projeto com aquele ID existe. Se não existir retorne um erro, caso contrário permita a requisição continuar normalmente;
+## 📝 Licença
 
-- Crie um middleware global chamado em todas requisições que imprime (`console.log`) uma contagem de quantas requisições foram feitas na aplicação até então;
-
-## 📅 Entrega
-
-Esse desafio **não precisa ser entregue** e não receberá correção, mas você pode ver o resultado do [código do desafio aqui](https://github.com/Rocketseat/bootcamp-gostack-desafio-01/blob/master/index.js). Após concluir o desafio, adicionar esse código ao seu Github é uma boa forma de demonstrar seus conhecimentos para oportunidades futuras.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/engividal/tobehero/blob/master/LICENSE) para mais detalhes.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Entre na nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+## 🙏 Agradecimentos 
+
+- CTO Rocketseat [Diego Fernandes](https://github.com/diego3g)
+- Rocketseat pela semana de Aprendizagem [Rocketseat](https://github.com/rocketseat)
+- Template do README.md [EliasGcf/engividal](https://www.linkedin.com/in/eliasgcf/)
+- Apoio na geração das telas [Sth](https://www.linkedin.com/in/sthefany-freitas-9130991a3/)

@@ -11,17 +11,17 @@
   
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/kleytonsolinho/thebehero">
   
-  <a href="https://www.codacy.com/manual/kleytonsolinho/thebehero?    utm_source=github.com&amp;utm_medium=referral&amp;utm_content=engividal/tobehero&amp;utm_campaign=Badge_Grade">
+  <a href="https://www.codacy.com/manual/kleytonsolinho/thebehero?    utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kleytonsolinho/thebehero&amp;utm_campaign=Badge_Grade">
   <img src="https://api.codacy.com/project/badge/Grade/af7ef38b79414492844663ebbbf4e21b"/>
   </a>
   
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/kleytonsolinho/thebehero">
   
-  <a href="https://github.com/engividal/tobehero/commits/master">
+  <a href="https://github.com/kleytonsolinho/thebehero/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kleytonsolinho/thebehero">
   </a>
   
-  <a href="https://github.com/engividal/tobehero/issues">
+  <a href="https://github.com/kleytonsolinho/thebehero/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/kleytonsolinho/thebehero">
   </a>
   
